@@ -52,6 +52,8 @@ function changeFruit(fruit) {
 console.log(changeFruit);
 // [Function: changeFruit]
 
+
+// ANSWER TO NUMBER FOUR
 const arraysOfNumbers = [27, 64, 47, 78, 48, 11, 76, 25, 11, 83];
 function maxOfArray(numbers) {
     let max = numbers[0];                     
@@ -65,29 +67,35 @@ function maxOfArray(numbers) {
 console.log(maxOfArray(arraysOfNumbers));
 //  maximum number from this array = 83
 
-let randomNumbers = [1,2,3]
+// let randomNumbers = [1,2,3];
 
-function multipleOfIndex(array) {
-	// creating a result array where we'll save the needed elements
-	let res = [];
+// function multipleOfIndex(array) {
+// 	// creating a result array where we'll save the needed elements
+// 	let res = [];
 
-	// loop over the array
-	for (let i = 0; i < array.length; i++) {
-		// check if the current element (array[i]) is a multiple of it's index (i) and if it is...
-		if (array[i] * i) {
-			// add it to the resulting array
-			res.map(array[i]);
-		}
-	}
+// 	// loop over the array
+// 	for (let i = 0; i < array.length; i++) {
+// 		// check if the current element (array[i]) is a multiple of it's index (i) and if it is...
+// 		if (array[i] * i) {
+// 			// add it to the resulting array
+// 			res.map(array[i]);
+// 		}
+// 	}
 
-	return res;
-}
-console.log(multipleOfIndex(randomNumbers));
+// 	return res;
+// }
+// console.log(multipleOfIndex(randomNumbers));
 
-// let multipleOfNumbers = randomNumbers.map(function (numbers){
-//     return numbers * index;
-// });
-// console.log(multipleOfNumbers);
+// ANSWER TO NUMBER FIVE
+let arrOfNumbers = [2,4,6,8];
+
+let valTimesIndex = arrOfNumbers.map(function(val,index,arr){
+    return val * index;
+});
+
+console.log(valTimesIndex);
+
+
 	
 
 

@@ -50,8 +50,7 @@ function changeFruit(fruit) {
         return fruit;
 }
 console.log(changeFruit(fruit));
-// [Function: changeFruit]
-
+// [ 'apple', 'mango', 'orange' ]
 
 // ANSWER TO NUMBER FOUR
 const arraysOfNumbers = [27, 64, 47, 78, 48, 11, 76, 25, 11, 83];

@@ -49,7 +49,7 @@ function changeFruit(fruit) {
         fruit[2] = "orange";
         return fruit;
 }
-console.log(changeFruit);
+console.log(changeFruit(fruit));
 // [Function: changeFruit]
 
 
